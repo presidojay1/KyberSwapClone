@@ -1,0 +1,673 @@
+.NavSection {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+.NavBar-Header {
+  margin: 5px 10px;
+}
+.NavBody-1 {
+  display: flex;
+  justify-content: space-between;
+  min-width: 580px;
+}
+
+.NavBody-2 {
+  display: flex;
+  justify-content: space-between;
+  min-width: 370px;
+}
+
+.NavItem-FlexImage {
+  margin-top: 12px;
+}
+.NavItem-FlexImage img {
+  transition: transform 0.3s ease; /* Smooth transition */
+}
+.NavItem-FlexImage:hover img {
+  transform: rotate(
+    -15deg
+  ); /* Rotate image 25 degrees to the left (counterclockwise) */
+}
+.NavItem-FlexItems {
+  width: 250px;
+  height: 150px;
+  position: absolute;
+  border-radius: 10px;
+  overflow: auto;
+  z-index: 10;
+  background-color: rgb(61, 60, 60);
+}
+.NavItem-FlexItems-Dao {
+  width: 250px;
+  height: 120px;
+  position: absolute;
+  border-radius: 10px;
+  overflow: auto;
+  z-index: 10;
+  background-color: rgb(61, 60, 60);
+}
+
+.NavItem-FlexItems-About {
+  width: 130px;
+  min-height: 60px;
+  position: absolute;
+  border-radius: 10px;
+  overflow: auto;
+  z-index: 10;
+  background-color: rgb(39, 39, 39);
+}
+
+/* Hide scrollbar for IE, Edge, and Firefox */
+.NavItem-FlexItems,
+.NavItem-FlexItems-Dao,
+.NavItem-FlexItems-About,
+.NavItem-FlexItems-Box {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+.NavItem-FlexP {
+  display: flex;
+  margin: 12px 18px;
+  cursor: pointer;
+}
+
+.NavItem-FlexP:hover {
+  filter: invert(34%) sepia(57%) saturate(3145%) hue-rotate(113deg)
+    brightness(92%) contrast(93%);
+  color: rgb(34, 159, 121);
+}
+
+.NavItem-FlexP p {
+  font-size: 16px;
+  cursor: pointer;
+  color: rgb(161, 158, 158);
+  font-weight: 700;
+}
+
+.NavItem-Flex {
+  display: flex;
+  margin-top: 20px;
+}
+
+.NavItem-Flex p {
+  color: rgb(198, 195, 195);
+  font-weight: 650;
+  font-size: 18px;
+}
+.NavItem-Flex p:hover {
+  color: rgb(49, 203, 158);
+  cursor: pointer;
+  font-weight: 650;
+  font-size: 18px;
+}
+
+.NavItem-FlexBox img {
+  margin-top: 3px;
+}
+
+.NavItem-Button {
+  width: 90px;
+  height: 40px;
+  text-align: center;
+  border-radius: 30px;
+  background-color: rgba(49, 203, 158, 0.3);
+  margin-top: 10px;
+  font-size: 14px;
+  color: rgb(49, 203, 158);
+  cursor: pointer;
+}
+
+.NavItem-Button-Rewarard {
+  width: 90px;
+  height: 40px;
+  text-align: center;
+  border-radius: 30px;
+  background-color: rgba(31, 32, 31, 0.3);
+  margin: auto;
+  margin-top: 10px;
+  font-size: 14px;
+  color: rgb(118, 121, 120);
+}
+
+.NavItem-Button-Rewarard p {
+  padding-top: 10px;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.NavItem-Button:hover {
+  background-color: rgba(38, 175, 134, 0.3);
+  color: rgb(78, 222, 179);
+}
+
+.walletImage-Div {
+  border-radius: 20px;
+  width: 35px;
+  margin: auto 1px;
+  margin-left: 1px;
+  height: 32px; /* Add height to ensure the div has dimensions */
+  overflow: hidden; /* Ensure content inside respects the border radius */
+  display: flex; /* Optional: center content if needed */
+  justify-content: center; /* Optional: center content if needed */
+  align-items: center; /* Optional: center content if needed */
+  position: relative;
+}
+
+.walletImage {
+  width: 35px;
+  height: 32px;
+  margin: auto;
+  margin-left: 0px;
+  padding-top: 2px;
+  position: absolute;
+}
+
+.imagePx-Body {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-left: 20px;
+}
+.NavItem-Button p {
+  padding-top: 10px;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.Alarm {
+  max-width: 150px;
+  height: 40px;
+  text-align: center;
+  border-radius: 30px;
+  background-color: rgb(35, 35, 35);
+  margin-top: 10px;
+  padding: 2px 5px;
+  justify-content: space-evenly;
+}
+.Alarm p {
+  padding-top: 4px;
+  padding-left: 2px;
+  color: white;
+  padding-right: 2px;
+  margin-top: 1px;
+}
+.Alarm-box {
+  width: 100px;
+  justify-content: space-evenly;
+  height: 40px;
+  text-align: center;
+  border-radius: 30px;
+  background-color: rgb(25, 86, 32);
+  margin-top: 10px;
+  cursor: pointer;
+}
+.Alarm-box:hover {
+  border: 1px solid rgb(130, 245, 130);
+}
+
+.NavItem-FlexItems {
+  width: 250px;
+  height: 150px;
+  position: absolute;
+  border-radius: 10px;
+  overflow: auto;
+  z-index: 10;
+  background-color: rgb(61, 60, 60);
+}
+
+.NavItem-FlexItems-Box {
+  width: 230px;
+  height: 600px;
+  position: absolute;
+  border-radius: 10px;
+  margin-left: -140px;
+  margin-top: 15px;
+  font-size: 1rem;
+  overflow: auto;
+  z-index: 100;
+  padding: 15px;
+  padding-top: 5px;
+  background-color: rgb(61, 60, 60);
+}
+
+.NavItem-FlexItems-BoxLang {
+  width: 170px;
+  height: 200px;
+  position: absolute;
+  border-radius: 10px;
+  margin-left: -90px;
+  margin-top: 15px;
+  font-size: 1rem;
+  overflow: auto;
+  z-index: 100;
+  padding: 15px;
+  padding-top: 15px;
+  background-color: rgb(61, 60, 60);
+}
+
+.NavItem-FlexItems-BoxH1 {
+  padding-bottom: 13px;
+  border-bottom: 1px solid #a9a9a9;
+}
+
+.NavItem-FlexItems-P1 {
+  font-size: 17px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  margin-top: 12px;
+  color: white;
+}
+
+.NavItem-FlexBox-Details,
+.NavItem-FlexBox-DetailsCountry {
+  display: flex;
+  margin: 5px 3px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: #a9a9a9;
+  font-weight: 500;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.NavItem-FlexBox-Details p,
+.NavItem-FlexBox-DetailsCountry p {
+  font-size: 16px;
+  color: #a9a9a9; /* Initial grey color */
+  font-weight: 700;
+  transition: color 0.3s; /* Smooth transition for color */
+}
+.NavItem-FlexBox:hover .NavItem-FlexBox-Details p:hover,
+.NavItem-FlexBox-DetailsCountry p:hover {
+  color: white; /* Change text color to white on hover */
+}
+
+.NavItem-FlexBox:hover .NavItem-FlexBox-Details img {
+  filter: invert(100%); /* Change SVG color to white on hover */
+}
+.NavItem-FlexBox-DetailsCountry img {
+  filter: invert(0%); /* Change SVG color to white on hover */
+}
+.Bottom-nav {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  z-index: 999;
+  height: 55px;
+  overflow: hidden;
+}
+
+.Bottom-NavBody {
+  display: flex;
+  justify-content: space-between;
+  background-color: #1c1c1c;
+  width: 100%;
+  height: 100%; /* Ensure it fills the parent .Bottom-nav */
+}
+
+.BottomNav-FirstFlex {
+  display: flex;
+  justify-content: space-between;
+  width: 95%;
+  margin: auto;
+  margin-top: 19px;
+}
+
+.BottomNav-Four-flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Bottom-Nav-ImageF {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Bottom-Nav-ImageF p {
+  font-style: italic;
+  font-size: 13px;
+  color: #a9a9a9;
+  cursor: pointer;
+}
+
+.Bottom-Nav-ImageF img {
+  filter: invert(0%);
+  color: rgb(244, 246, 245);
+  cursor: pointer;
+}
+
+.Bottomnav-RIcons img {
+  filter: invert(100%);
+  color: rgb(244, 246, 245);
+  cursor: pointer;
+}
+
+.Bottom-Nav-ImageF img {
+  margin-top: 1px;
+  cursor: pointer;
+}
+
+.NavBottom-Button {
+  width: 110px;
+  height: 40px;
+  text-align: center;
+  border-radius: 30px;
+  background-color: rgba(49, 203, 158, 0.3);
+  margin-top: -1px;
+  font-size: 14px;
+  color: rgb(49, 203, 158);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  position: relative; /* Ensure proper positioning of the icon */
+}
+
+.NavBottom-Button .icon {
+  position: absolute;
+  left: 10px; /* Adjust as necessary */
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.NavBottom-Button p {
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.Bottomnav-RIcons {
+  display: flex;
+  margin-top: -10px;
+}
+
+.ChevronDownIcon {
+  min-width: 20px;
+  min-height: 20px;
+  margin-top: 4px;
+}
+
+.BottomDisappear {
+  display: none !important;
+}
+
+.whiteIcon {
+  filter: brightness(0) invert(1) grayscale(1);
+}
+
+@media screen and (max-width: 1100px) {
+  .BT-Disappear {
+    display: none;
+  }
+  .NavItem-FlexItems-Box {
+    display: block !important;
+  }
+  .BottomDisappear {
+    display: block !important;
+    margin-top: -20px;
+  }
+  .BottomNav-Four-flex {
+    display: none;
+  }
+  .Bottomnav-RIcons {
+    display: none;
+  }
+
+  .NavItem-FlexItems-Box {
+    width: 230px;
+    height: 600px;
+    display: block !important;
+    position: absolute;
+    border-radius: 10px;
+    position: fixed;
+    bottom: 10;
+    left: calc(100% - 100px); /* Start with a default position */
+    margin-right: 20px;
+    margin-top: 65px;
+    font-size: 1rem;
+    overflow: auto;
+    z-index: 100;
+    padding: 15px;
+    padding-top: 5px;
+    background-color: rgb(61, 60, 60);
+  }
+  .NavItem-FlexItems-BoxLang {
+    width: 170px;
+    height: 200px;
+    display: block !important;
+    position: absolute;
+    border-radius: 10px;
+    position: fixed;
+    top: 55%;
+    left: calc(100% - 100px); /* Start with a default position */
+    margin-right: 20px;
+    margin-top: 65px;
+    font-size: 1rem;
+    overflow: auto;
+    z-index: 100;
+    padding: 15px;
+    padding-top: 5px;
+    background-color: rgb(61, 60, 60);
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .NavBody-1 {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .NavItem-FlexImage {
+    margin-top: 5px;
+  }
+
+  .imagePx-Body {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    min-width: 400px;
+    margin-left: 20px;
+  }
+  .NavItem-FlexItems-About {
+    width: 130px;
+    min-height: 60px;
+    position: absolute;
+    border-radius: 10px;
+    overflow: auto;
+    z-index: 10;
+    background-color: rgb(39, 39, 39);
+    margin-left: -50px;
+  }
+
+  .NavItem-FlexItems {
+    width: 250px;
+    height: 150px;
+    position: absolute;
+    border-radius: 10px;
+    overflow: auto;
+    z-index: 10;
+    background-color: rgb(61, 60, 60);
+  }
+  .NavItem-FlexItems-Dao {
+    width: 250px;
+    height: 150px;
+    position: absolute;
+    border-radius: 10px;
+    overflow: auto;
+    z-index: 10;
+    background-color: rgb(61, 60, 60);
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .NavItem-Flex p {
+    font-size: 16px;
+  }
+
+  .NavItem-FlexImage img {
+    width: 100px;
+    margin-top: 15px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .ChevronDownIcon {
+    width: 25px;
+    height: 25px;
+    margin-top: 3px;
+  }
+  .disaapear {
+    display: none;
+  }
+  .NavItem-Flex p {
+    font-size: 15px;
+  }
+
+  .NavBody-1 {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  .NavItem-Flex {
+    margin-right: -50px;
+  }
+  .ChevronDownIcon {
+    width: 15px;
+    margin-top: 3px;
+  }
+
+  .imagePx-Body {
+    position: absolute;
+    margin-left: 50%;
+    justify-content: space-evenly;
+  }
+
+  .NavItem-FlexImage img {
+    width: 100px;
+    margin-top: 15px;
+  }
+
+  .NavItem-FlexItems {
+    width: 185px;
+    height: 150px;
+    position: absolute;
+    border-radius: 10px;
+    overflow: auto;
+    margin-top: 10px;
+    z-index: 10;
+    background-color: rgb(61, 60, 60);
+    margin-left: -60px;
+  }
+
+  .NavItem-FlexItems-Dao {
+    width: 185px;
+    height: 120px;
+    position: absolute;
+    border-radius: 10px;
+    overflow: auto;
+    margin-top: 10px;
+    z-index: 10;
+    background-color: rgb(61, 60, 60);
+    margin-left: -60px;
+  }
+
+  .NavItem-Flex p:hover {
+    color: rgb(49, 203, 158);
+    cursor: pointer;
+    font-weight: 650;
+    font-size: 15px;
+  }
+
+  .NavItem-FlexP p {
+    font-size: 13px;
+    cursor: pointer;
+    color: rgb(161, 158, 158);
+    font-weight: 700;
+  }
+
+  .Bottom-NavBody {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(12, 12, 12);
+    width: 100%;
+    margin: auto;
+    height: 100%; /* Ensure it fills the parent .Bottom-nav */
+  }
+
+  .BottomNav-FirstFlex {
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    margin: auto;
+    margin-top: 19px;
+  }
+  .BottomPosition {
+    margin-right: 13%;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .imagePx-Body {
+    position: absolute;
+    margin-left: 45%;
+    justify-content: space-evenly;
+  }
+
+  .NavItem-FlexItems {
+    width: 250px;
+    height: 150px;
+    position: absolute;
+    border-radius: 10px;
+    overflow: auto;
+    margin-top: 10px;
+    z-index: 10;
+    background-color: rgb(61, 60, 60);
+    margin-left: -75px;
+  }
+
+  .NavItem-FlexItems-Dao {
+    width: 160px;
+    height: 120px;
+    position: absolute;
+    border-radius: 10px;
+    overflow: auto;
+    margin-top: 10px;
+    z-index: 10;
+    background-color: rgb(61, 60, 60);
+    margin-left: -60px;
+  }
+}
+@media screen and (max-width: 526px) {
+  .imagePx-Body {
+    position: absolute;
+    margin-left: 36%;
+    justify-content: space-evenly;
+  }
+
+  .NavItem-FlexItems-Dao {
+    width: 145px;
+    height: 120px;
+    position: absolute;
+    border-radius: 10px;
+    overflow: auto;
+    margin-top: 10px;
+    z-index: 10;
+    background-color: rgb(61, 60, 60);
+    margin-left: -60px;
+  }
+
+  .NavItem-FlexItems {
+    width: 250px;
+    height: 150px;
+    position: absolute;
+    border-radius: 10px;
+    overflow: auto;
+    margin-top: 10px;
+    z-index: 10;
+    background-color: rgb(61, 60, 60);
+    margin-left: -100px;
+  }
+}

@@ -1,0 +1,693 @@
+.TradeSection {
+  width: 97%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.Trade-Swap {
+  width: 500px;
+  margin-left: 2px;
+  margin-right: 20px;
+  margin-top: 35px;
+  padding-bottom: 10px;
+  background-color: none;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.TradeSwap-Flex {
+  display: flex;
+  justify-content: space-between;
+  width: 98%;
+  margin: auto;
+}
+
+.TradeSwap-Flex1 {
+  display: flex;
+  justify-content: space-between;
+  width: 100px;
+}
+
+.TradeSwap-Flex1 img {
+  margin-top: 10px;
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+.TradeSwap-FlexA {
+  display: flex;
+  justify-content: space-between;
+  width: 210px;
+  margin: 5px 5px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.TradeSwap-FlexA p {
+  font-size: 22px;
+  font-weight: 600;
+  color: rgb(169, 169, 169);
+}
+
+.TradeSwap-FlexA img {
+  margin-top: 6px;
+}
+
+.PinstantlyP {
+  font-size: 14px;
+  margin-left: 17px;
+  margin-top: 5px;
+  color: rgb(169, 169, 169);
+}
+
+.TradeSwap-Body {
+  width: 93%;
+  margin: auto;
+  padding: 10px;
+  border-radius: 20px;
+  margin-top: 10px;
+
+  background-color: rgb(28, 28, 28);
+}
+
+.TradeSwap-Body img {
+  position: absolute;
+  overflow: auto;
+  z-index: 0;
+  align-items: center;
+  left: 220px;
+  margin-top: -10px;
+}
+
+.TradeSwap-Body1 {
+  width: 95%;
+  margin: auto;
+  margin-top: 10px;
+  height: 100px;
+  background-color: black;
+  border-radius: 12px;
+}
+
+.TradeSwap-BodyFlex-A {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: auto;
+  padding-top: 5px;
+}
+
+.TradeSwap-BodyFlex-A p {
+  border-bottom: 1px dotted rgb(169, 169, 169);
+  color: rgb(169, 169, 169);
+}
+
+.TradeSwap-BodyFlex-A span {
+  color: white;
+  font-weight: 700;
+  font-size: 15px;
+  margin-left: 3px;
+}
+
+.TradeSwap-BodyFlex1 {
+  left: 88%;
+  position: relative;
+  padding-top: 5px;
+}
+
+.TradeSwap-BodyFlex1 span {
+  color: white;
+  font-weight: 700;
+  font-size: 15px;
+
+  margin-left: 3px;
+}
+
+.TradeSwap-BodyFlex2 {
+  width: 95%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+
+  padding-top: 20px;
+}
+.TradeSwap-BodyFlex2 h1 {
+  font-weight: 700;
+  margin-top: 10px;
+  font-size: 21px !important;
+  color: white;
+}
+.Body-DropDown {
+  min-width: 100px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: rgb(52, 52, 52);
+  display: flex;
+  justify-content: space-evenly;
+}
+.Body-DropDown h4 {
+  font-weight: 700;
+  margin-top: 7px;
+  font-size: 18px;
+  margin-left: -2px;
+  color: rgb(169, 169, 169);
+}
+
+.Body-DropDownImage {
+  border-radius: 20px;
+  width: 35px;
+  margin: auto 1px;
+  height: 35px; /* Add height to ensure the div has dimensions */
+  overflow: hidden; /* Ensure content inside respects the border radius */
+  display: flex; /* Optional: center content if needed */
+  justify-content: center; /* Optional: center content if needed */
+  align-items: center; /* Optional: center content if needed */
+  position: relative;
+  z-index: 0;
+}
+.tokenImage {
+  width: 42px;
+  height: 42px;
+  margin: auto;
+  margin-left: -220px;
+  padding-top: 10px;
+  position: absolute;
+  z-index: 0;
+}
+
+.slippage-input {
+  width: 90%;
+  margin: auto;
+  height: 25px;
+  border-radius: 10px;
+  background-color: black;
+}
+.slippage-InputNumber {
+  width: 100%;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-size: 12px;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.slippage-number {
+  background-color: none;
+  color: #a9a9a9;
+  width: 100px;
+  border-radius: 20px;
+  height: 25px;
+  cursor: pointer;
+}
+
+.slippage-number p {
+  padding-top: 3px;
+}
+
+.slippage-numberInput {
+  background-color: transparent;
+  color: #a9a9a9;
+  width: 100px;
+  border-radius: 20px;
+  height: 25px;
+  padding: 0px 3px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.slippage-numberInput input {
+  background-color: transparent;
+  outline: none;
+  width: 50px;
+  border-radius: 20px;
+  color: white;
+  text-align: center;
+  height: 25px;
+  box-sizing: border-box;
+  border: none;
+}
+
+.slippage-numberInput input::-webkit-outer-spin-button,
+.slippage-numberInput input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.slippage-number:hover {
+  background-color: #0a0a0a;
+  border: 1px solid rgb(49, 203, 158);
+  color: rgb(227, 225, 225);
+  width: 100px;
+  border-radius: 20px;
+  height: 25px;
+}
+
+.slippage-numberInput:hover {
+  background-color: none;
+  border: 1px solid rgb(49, 203, 158);
+  color: rgb(224, 222, 222);
+  width: 100px;
+  border-radius: 20px;
+  height: 25px;
+  padding: 0px 3px;
+  box-sizing: border-box;
+}
+
+.Max-Slippage {
+  display: flex;
+  width: 93%;
+  margin: auto;
+  margin-top: 5px;
+}
+.Max-Slippage p {
+  color: rgb(169, 169, 169);
+  font-size: 14px;
+  border-bottom: 1px dotted rgb(169, 169, 169);
+  margin-right: 5px;
+  margin-top: 3px;
+}
+.Max-Slippage span {
+  color: white;
+  margin-top: 2px;
+}
+
+.LoseFunds-Red {
+  width: 94%;
+  margin: auto;
+  background-color: red;
+  padding: 5px;
+  border-radius: 20px;
+  margin-top: 10px;
+}
+
+.LoseFunds-Yellow {
+  width: 94%;
+  margin: auto;
+  background-color: rgba(255, 153, 1, 0.3);
+  padding: 5px;
+  border-radius: 20px;
+  margin-top: 10px;
+}
+
+.InsideRed-Text {
+  font-size: 12px;
+  color: white;
+  font-weight: 600;
+  margin-top: 3px;
+  margin-left: 2px;
+}
+
+.AfterRed-Text {
+  width: 85%;
+  margin: auto;
+  color: white;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.Lose-Funds {
+  display: flex;
+  width: 90%;
+  margin: auto;
+  margin-bottom: 2px;
+}
+
+.Price-feed {
+  width: 93%;
+  padding: 5px;
+  height: 100%;
+  padding-bottom: 5px;
+  margin: auto;
+  margin-top: 10px;
+  border-radius: 10px;
+  border: 1px solid white;
+  background-color: none;
+}
+
+.PriceFeed-Flex {
+  display: flex;
+  justify-content: space-between;
+  width: 95%;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.Price-feed p {
+  font-weight: lighter;
+  font-size: 14px;
+  color: rgb(159, 157, 157);
+}
+.PriceFeed-Flex p {
+  color: rgb(169, 169, 169);
+}
+
+.Feedflex-ItemsF p {
+  font-size: 12px;
+}
+.Feedflex-ItemsF {
+  display: flex;
+}
+
+.spin-animation {
+  animation: spin 9s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.Feed-Button {
+  width: 90%;
+  margin: 0 auto;
+  margin-left: 20px;
+  margin-top: 10px;
+  cursor: pointer;
+  height: 40px;
+  text-align: center;
+  color: rgb(49, 203, 158);
+  font-style: italic;
+  font-size: 17px;
+  border-radius: 15px;
+  border: none;
+  background-color: rgba(49, 203, 158, 0.3);
+}
+.Trade-Route {
+  width: 80%;
+  max-width: 90%;
+  height: 80vh;
+  border-radius: 5px;
+  background-color: none;
+}
+
+.Trade-Route_body {
+  width: 95%;
+  margin: auto;
+  pad: 10px 5px;
+}
+
+.Trade-Route-Logo {
+  display: flex;
+  margin-top: 30px;
+}
+.Trade-Route-Logo h1 {
+  color: rgb(182, 180, 180);
+  font-size: 22px;
+  margin-top: 5px;
+}
+
+.Trade-Route-Flex {
+  display: flex;
+  justify-content: space-between;
+  width: 99%;
+  margin: auto;
+  margin-top: 10px;
+}
+
+.Trade-Route-FirstFlex {
+  display: flex;
+}
+.Trade-Route-SecondFlex {
+  display: flex;
+}
+
+.Trade-Route-FirstFlex p,
+.Trade-Route-SecondFlex p {
+  color: #a9a9a9;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.ThreeLines-Trade {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.vertical-line {
+  position: relative;
+  width: 0.09px;
+  height: 400px;
+  background-color: #a09b9b;
+  margin: 0 20px;
+}
+
+.dot {
+  position: absolute;
+  top: -10px;
+  left: -4px;
+  width: 10px;
+  height: 10px;
+  background-color: rgb(49, 203, 158);
+  border-radius: 50%;
+}
+
+.TradeRoute-EP {
+  width: 95%;
+  margin: auto;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.TradeRoute-EF {
+  width: 100%;
+  margin: auto;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  margin-top: -10px;
+  margin-bottom: 50px;
+}
+.TradeRoute-Percent {
+  width: auto; /* Adjust width as needed */
+  margin-top: 38px;
+  color: rgb(49, 203, 158);
+  font-weight: 700;
+}
+
+.horizontal-middle {
+  flex-grow: 1;
+  height: 1px; /* Adjust height as needed */
+  background-color: #a09b9b; /* Just for visibility */
+  margin: 0 1px; /* Adjust margin as needed */
+  margin-top: 50px;
+}
+
+.TradeRoute-Body {
+  width: 160px; /* Width of TradeRoute-Body */
+  min-height: 95px; /* Height of TradeRoute-Body */
+  height: 100%;
+  max-height: 100px;
+  text-align: center;
+  border-radius: 5px;
+  background-color: rgb(27, 26, 26);
+  padding: 2px 5px;
+  color: #a09b9b;
+  position: relative;
+  margin-top: 10px;
+}
+
+.TradeRoute-Icon {
+  margin-left: 10px; /* Adjust margin as needed */
+  margin-top: 38px;
+}
+
+.TradeRoute-BodyTop {
+  display: flex;
+  position: relative;
+  border-bottom: 1px solid grey;
+  width: 90%;
+  margin: auto;
+  margin-top: 10px;
+  padding-bottom: 10px;
+}
+
+.TDBT-ImageDiv {
+  border-radius: 20px;
+  width: 26px;
+  margin: auto 1px;
+  margin-left: 1px;
+  height: 26px; /* Add height to ensure the div has dimensions */
+  overflow: hidden; /* Ensure content inside respects the border radius */
+  display: flex; /* Optional: center content if needed */
+  justify-content: center; /* Optional: center content if needed */
+  align-items: center; /* Optional: center content if needed */
+  position: relative;
+}
+
+.TDBT-Image {
+  width: 25px;
+  height: 25px;
+  margin: auto;
+  margin-left: 0px;
+  padding-top: 2px;
+  position: absolute;
+}
+
+.TradeRoute-BodyTop2 {
+  display: flex;
+  margin-top: 12px;
+  margin-bottom: 2px;
+  padding-bottom: 2px;
+}
+
+.TradeRoute-BodyTop p {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.TradeRoute-BodyTop2 p {
+  font-size: 11px;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+.TradeRoute-BodyTop p:hover,
+.TradeRoute-BodyTop2 p:hover {
+  color: white;
+}
+
+@media screen and (max-width: 1280px) {
+  .Trade-Route_body {
+    width: 99%;
+    margin: auto;
+    pad: 10px 1px;
+  }
+}
+
+@media screen and (max-width: 1240px) {
+  .TradeSwap-Body img {
+    position: absolute;
+    overflow: auto;
+    z-index: 0;
+    align-items: center;
+    left: 46%;
+    margin-top: -10px;
+  }
+  .TradeSection {
+    width: 97%;
+    margin: 0 auto;
+    display: inline-block;
+    height: 100%;
+  }
+
+  .tokenImage {
+    width: 42px;
+    height: 42px;
+    margin: auto;
+    margin-left: -17px;
+    padding-top: 10px;
+    position: absolute;
+  }
+
+  .Trade-Route {
+    width: 80%;
+    max-width: 90%;
+    height: 80vh;
+    margin: 0 auto;
+    border-radius: 5px;
+  }
+  .Trade-Swap {
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 35px;
+    padding-bottom: 10px;
+
+    border-radius: 10px;
+  }
+}
+
+@media screen and (max-width: 840px) {
+  .TradeSection {
+    width: 99%;
+    margin: 0 auto;
+    display: inline-block;
+    height: 100%;
+  }
+  .Trade-Route {
+    width: 98%;
+    min-width: 650px;
+    height: 100%;
+    margin: 0 auto;
+    border-radius: 5px;
+  }
+  .Trade-Swap {
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 35px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+  }
+}
+
+@media screen and (max-width: 670px) {
+  .TradeSection {
+    width: 99%;
+    margin: 0 auto;
+    display: inline-block;
+    height: 100%;
+    position: relative; /* Ensure correct positioning of child elements */
+    overflow: auto;
+  }
+  .TradeSection {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
+
+  .Trade-Route {
+    width: 650px;
+    height: 100%;
+    margin: 0 auto;
+    border-radius: 5px;
+  }
+
+  .Trade-Swap {
+    width: 90%;
+    min-width: 550px;
+    margin: 0 auto;
+    margin-top: 35px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    overflow-x: hidden; /* Ensure no overflow */
+    position: relative; /* Keep it within the flow of TradeSection */
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .TradeSection {
+    width: 99%;
+    margin: 0 auto;
+    display: inline-block;
+    height: 100%;
+    position: relative; /* Ensure correct positioning of child elements */
+    overflow: auto;
+  }
+
+  .Trade-Route {
+    width: 650px;
+    height: 100%;
+    margin: 0 auto;
+    border-radius: 5px;
+  }
+
+  .Trade-Swap {
+    width: 100%;
+    min-width: 430px;
+    margin: 0 auto;
+    margin-top: 35px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    overflow-x: hidden; /* Ensure no overflow */
+    position: relative; /* Keep it within the flow of TradeSection */
+  }
+}
