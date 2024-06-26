@@ -10,7 +10,7 @@ import Knc from "../Modal-Components/TokenImages/knc.png";
 
 const HomePage = () => {
   return (
-    <div className="mt-36 HomepageBody">
+    <div className="mt-24 HomepageBody">
       <div>
         <p className="text-center text-white text-3xl sm:text-4xl md:text-5xl lg:text-6xl">
           <span className="text-[#31CB9E] font-bold">Swap</span> Token at

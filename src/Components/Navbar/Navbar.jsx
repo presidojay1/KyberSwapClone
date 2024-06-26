@@ -76,7 +76,7 @@ const Navbar = () => {
             <section className="N900px-Flex">
               <div className="NavItem">
                 <div className="NavItem-FlexImage">
-                  <img src={logo} alt="" />
+                  <img onClick={navigateToHome} src={logo} alt="" />
                 </div>
               </div>
             </section>
@@ -220,7 +220,7 @@ const Navbar = () => {
                 </div>
 
                 {state.about && (
-                  <div className="NavItem-FlexItems-About">
+                  <div className="NavItem-FlexItems-About disaapear">
                     <div onClick={navigateToHome} className="NavItem-FlexP">
                       <p>Kyber Swap</p>
                     </div>

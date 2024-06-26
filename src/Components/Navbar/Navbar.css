@@ -23,6 +23,7 @@
 }
 .NavItem-FlexImage img {
   transition: transform 0.3s ease; /* Smooth transition */
+  cursor: pointer;
 }
 .NavItem-FlexImage:hover img {
   transform: rotate(
@@ -523,6 +524,11 @@
   }
   .NavItem-Flex p {
     font-size: 15px;
+  }
+
+  .NavItem {
+    min-height: 70px;
+    min-width: 50px;
   }
 
   .NavBody-1 {
