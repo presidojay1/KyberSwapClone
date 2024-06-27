@@ -637,18 +637,11 @@
     display: inline-block;
     height: 100%;
     position: relative; /* Ensure correct positioning of child elements */
-    overflow: auto;
+    overflow-x: hidden;
   }
   .TradeSection {
     -ms-overflow-style: none; /* IE and Edge */
     scrollbar-width: none; /* Firefox */
-  }
-
-  .Trade-Route {
-    width: 650px;
-    height: 100%;
-    margin: 0 auto;
-    border-radius: 5px;
   }
 
   .Trade-Swap {
@@ -661,9 +654,170 @@
     overflow-x: hidden; /* Ensure no overflow */
     position: relative; /* Keep it within the flow of TradeSection */
   }
+
+  .Trade-Route {
+    width: 99%;
+    min-width: 450px;
+    height: 100%;
+    margin: 0 auto;
+    border-radius: 5px;
+  }
+
+  .TradeRoute-EP {
+    width: 100%;
+    margin: auto;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .TradeRoute-EF {
+    width: 100%;
+    margin: auto;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin-top: -10px;
+    margin-bottom: 50px;
+  }
+
+  .TradeRoute-Body {
+    width: 100px; /* Width of TradeRoute-Body */
+    min-height: 75px; /* Height of TradeRoute-Body */
+    height: 100%;
+    max-height: 92px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: rgb(27, 26, 26);
+    font-size: 12px;
+    padding: 2px 5px;
+    color: #a09b9b;
+    position: relative;
+    margin-top: 10px;
+  }
+
+  .TDBT-Image {
+    width: 25px;
+    height: 25px;
+    margin: auto;
+    margin-left: 0px;
+    padding-top: 2px;
+    position: absolute;
+  }
+
+  .TradeRoute-BodyTop2 {
+    display: flex;
+    margin-top: 1px;
+    margin-bottom: 2px;
+    padding-bottom: 2px;
+  }
+
+  .TradeRoute-BodyTop p {
+    font-size: 14px;
+    font-weight: 600;
+  }
+
+  .TradeRoute-BodyTop2 p {
+    font-size: 10px;
+    margin-top: 0px;
+    margin-left: 5px;
+  }
+  .Trade-Route_body {
+    width: 100%;
+    margin: auto;
+  }
 }
 
 @media screen and (max-width: 560px) {
+  .vertical-line {
+    position: relative;
+    width: 0.09px;
+    height: 400px;
+    background-color: #a09b9b;
+    margin: 0 5px;
+  }
+
+  .dot {
+    position: absolute;
+    top: -10px;
+    left: -4px;
+    width: 10px;
+    height: 10px;
+    background-color: rgb(49, 203, 158);
+    border-radius: 50%;
+  }
+  .Trade-Route {
+    width: 100%;
+    min-width: 380px;
+    height: 100%;
+    margin: 0 auto;
+    border-radius: 5px;
+  }
+
+  .TradeRoute-EP {
+    width: 100%;
+    margin: auto;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .TradeRoute-EF {
+    width: 100%;
+    margin: auto;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin-top: -10px;
+    margin-bottom: 50px;
+  }
+
+  .TradeRoute-Body {
+    width: 100px; /* Width of TradeRoute-Body */
+    min-height: 75px; /* Height of TradeRoute-Body */
+    height: 100%;
+    max-height: 92px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: rgb(27, 26, 26);
+    font-size: 12px;
+    padding: 2px 5px;
+    color: #a09b9b;
+    position: relative;
+    margin-top: 10px;
+  }
+
+  .TDBT-Image {
+    width: 25px;
+    height: 25px;
+    margin: auto;
+    margin-left: 0px;
+    padding-top: 2px;
+    position: absolute;
+  }
+
+  .TradeRoute-BodyTop2 {
+    display: flex;
+    margin-top: 1px;
+    margin-bottom: 2px;
+    padding-bottom: 2px;
+  }
+
+  .TradeRoute-BodyTop p {
+    font-size: 12px;
+    font-weight: 600;
+  }
+
+  .TradeRoute-BodyTop2 p {
+    font-size: 10px;
+    margin-top: 0px;
+    margin-left: 5px;
+  }
+  .Trade-Route_body {
+    width: 100%;
+    margin: auto;
+  }
+
   .TradeSection {
     width: 99%;
     margin: 0 auto;
@@ -673,21 +827,105 @@
     overflow: auto;
   }
 
-  .Trade-Route {
-    width: 650px;
-    height: 100%;
-    margin: 0 auto;
-    border-radius: 5px;
-  }
-
   .Trade-Swap {
     width: 95%;
-    min-width: 390px;
+    min-width: 370px;
     margin: 0 auto;
     margin-top: 35px;
     padding-bottom: 10px;
     border-radius: 10px;
     overflow-x: hidden; /* Ensure no overflow */
     position: relative; /* Keep it within the flow of TradeSection */
+  }
+}
+
+@media screen and (max-width: 440px) {
+  .vertical-line {
+    position: relative;
+    width: 0.09px;
+    height: 400px;
+    background-color: #a09b9b;
+    margin: 0 5px;
+  }
+
+  .dot {
+    position: absolute;
+    top: -10px;
+    left: -4px;
+    width: 10px;
+    height: 10px;
+    background-color: rgb(49, 203, 158);
+    border-radius: 50%;
+  }
+  .Trade-Route {
+    width: 100%;
+    min-width: 364px;
+    height: 100%;
+    margin: 0 auto;
+    border-radius: 5px;
+  }
+
+  .TradeRoute-EP {
+    width: 100%;
+    margin: auto;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .TradeRoute-EF {
+    width: 100%;
+    margin: auto;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin-top: -10px;
+    margin-bottom: 50px;
+  }
+
+  .TradeRoute-Body {
+    width: 90px; /* Width of TradeRoute-Body */
+    min-height: 75px; /* Height of TradeRoute-Body */
+    height: 100%;
+    max-height: 85px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: rgb(27, 26, 26);
+    font-size: 12px;
+    padding: 2px 3px;
+    color: #a09b9b;
+    position: relative;
+    margin-top: 10px;
+  }
+
+  .TDBT-Image {
+    width: 20px;
+    height: 20px;
+    margin: auto;
+    margin-left: 0px;
+    padding-top: 2px;
+    position: absolute;
+  }
+
+  .TradeRoute-BodyTop2 {
+    display: flex;
+    margin-top: 1px;
+    margin-bottom: 2px;
+    padding-bottom: 2px;
+  }
+
+  .TradeRoute-BodyTop p {
+    font-size: 12px;
+    font-weight: 600;
+  }
+
+  .TradeRoute-BodyTop2 p {
+    font-size: 9px;
+    margin-top: 0px;
+    margin-left: 5px;
+  }
+  .Trade-Route_body {
+    width: 100%;
+    margin: auto;
   }
 }
